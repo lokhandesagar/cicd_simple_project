@@ -1,5 +1,5 @@
 hosts: node
 tasks: 
   - copy: 
-      src: /var/lib/jenkins/workspace/devops_project_1/index.html
+      src: /home/ubuntu/index.html
       dest: /var/www/html
